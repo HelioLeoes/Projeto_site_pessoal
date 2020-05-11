@@ -4,6 +4,7 @@ TEXTO MAIS BONITO*/
 body {
     /*background: rgb(233, 233, 13);*/
     background-image: url(Imagens/fundo2.jpg);
+    background-size: auto 100vh;
     font-family: 'Courier New', Courier, monospace;
     height: 100vh;
 }
