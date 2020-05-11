@@ -1,0 +1,36 @@
+/* LINGUAGEM DE MARCAÇÕES COM CSS
+TEXTO MAIS BONITO*/
+
+body {
+    /*background: rgb(233, 233, 13);*/
+    background-image: url(Imagens/fundo2.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+}
+
+.menu {
+    background-color: white; /*PROPRIEDADE MAIS ESPECIFICA*/
+}
+.menu ul {
+    display: flex; /*UM ELEMENTO DO LADO DO OUTRO */
+    justify-content: space-around;/*COLOCA UM ESPAÇO IGUAL AO REDOR DOS LINKS*/
+}    
+.menu li {/*SELETOR DE HIERARQUIA*/
+    list-style: none;
+}
+a {
+    color: teal;
+    text-decoration: none;
+}
+a:hover {/*PSEUDOCLASS ESPAÇO IMPORTA */
+    text-decoration: underline;
+}
+.site-subtitle,/*PEGANDO AS MESMAS CARACTERISTICAS PARA AS DUAS CLASSES */
+.site-title {
+    /*ESCREVER PROPRIEDADES EM ORDEM ALFABETICA*/
+    color: black;
+    text-align: center;
+}
+.site-subtitle {
+    font-style: italic;
+}
