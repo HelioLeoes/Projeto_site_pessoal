@@ -1,6 +1,10 @@
 /* LINGUAGEM DE MARCAÇÕES COM CSS
 TEXTO MAIS BONITO*/
-
+* {/*TUDO QUE FOR COLOCADO DENTRO DESSA CHAVE VAI SER APLICADO EM TUDO*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     /*background: rgb(233, 233, 13);*/
     background-image: url(Imagens/fundo2.jpg);
