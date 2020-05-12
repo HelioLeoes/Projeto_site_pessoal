@@ -12,9 +12,24 @@ body {
     font-family: 'Courier New', Courier, monospace;
     height: 100vh;
 }
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+
+}
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .menu {
     background-color: white; /*PROPRIEDADE MAIS ESPECIFICA*/
+    position: fixed;
+    width: 100vh;
+    top: 0; /*SO FUNCIONA COM FLEX */
 }
 .menu ul {
     display: flex; /*UM ELEMENTO DO LADO DO OUTRO */
@@ -22,6 +37,12 @@ body {
 }    
 .menu li {/*SELETOR DE HIERARQUIA*/
     list-style: none;
+}
+.menu a {
+    
+    display: block;
+    padding: 10px;
+
 }
 a {
     color: teal;
@@ -38,4 +59,8 @@ a:hover {/*PSEUDOCLASS ESPAÇO IMPORTA */
 }
 .site-subtitle {
     font-style: italic;
+}
+.img-portfolio {
+    height: 180px;
+    width: 180px;
 }
